@@ -173,7 +173,7 @@ void loop()
   }
   else
   {
-    DBG_PRINTLN("- (ENS160)");
+    DBG_PRINTLN("- (ENS160 - no read)");
   }
     #ifdef SSD1309
         oled.switchFrame();
