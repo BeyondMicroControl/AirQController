@@ -95,7 +95,7 @@ void setup()
     #ifdef SOFTSERIAL
       DebugSerial.begin(9600);   // ok at 1 MHz
     #else
-      Serial.begin(9600);
+      Serial.begin(115200);
     #endif
 
     #ifdef AHT21
